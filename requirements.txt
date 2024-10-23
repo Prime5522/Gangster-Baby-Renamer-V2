@@ -1,6 +1,6 @@
 Pillow
 humanize
-werkzeug>=2.2.2
+werkzeug==2.0.3  # বা 2.0.0, এর আগের একটি সংস্করণ ব্যবহার করুন
 hachoir
 pyrogram==2.0.57
 TgCrypto
