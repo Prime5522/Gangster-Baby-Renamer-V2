@@ -5,8 +5,8 @@ from plugins.cb_data import app as Client2
 from pyrogram.errors import BadMsgNotification
 
 TOKEN = os.environ.get("TOKEN", "")
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "25425840"))
+API_HASH = os.environ.get("API_HASH", "e6ea2eca4aa38e965511f323e5ffa578")
 STRING = os.environ.get("STRING", "")
 
 bot = Client(
