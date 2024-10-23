@@ -34,7 +34,7 @@ async def start_clients():
             print(f"Error occurred: {e}, retrying in 5 seconds...")
             await asyncio.sleep(5)  # Retry after 5 seconds
 
-if name == "main":
+if __name__ == "__main__":  # Fixed here
     if STRING:
         asyncio.run(start_clients())
     else:
